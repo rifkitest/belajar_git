@@ -1,0 +1,35 @@
+Pro Android is the first book to include coverage of Google Android 1.5 SDK (including the branch formerly called Cupcake). This essential book covers the fundamentals of building applications for embedded devices thru through to advanced concepts, such as custom 3D components.
+
+    Takes a pragmatic approach to developing Google Android applications.
+    Examines the Android Virtual Device; the Input-Method Framework, special development considerations for touch screen vs. keyboard/traditional input, Voice Recognition, and Live Folders,
+    Covers the Android media APIs (media APIs, Wi-Fi APIs, etc), including the new simplified OpenGL, improved media framework and more.
+
+With Android 1.5 and this book that includes Android 1.5 coverage, developers should will be able to build leading-edge mobile applications ranging from games to Google Apps like add-ons to Google Docs and more—no matter the device interface. Extend and run APIs of the Google Chrome browser/WebOS on G1, G2 and other forthcoming next-generation Google phones and other Android-enabled devices and netbooks.
+What you’ll learn
+
+    What is Android and how to use Android to build Java-based mobile applications for Google phones with touch screen or keyboard, thanks to Cupcake's inclusion as of Android 1.5.
+    Create applications that run on either or both touch and keyboard screens.
+    How to design and architect a variety of mobile phone and device applications using Google's Android SDK.
+    Build multimedia and even game applications using Android's Media APIs, improved media framework and simplified OpenGL.
+    How to use Android's location-based services, networking (Wi-Fi APIs) and security.
+
+Who this book is for
+
+This book is for professional software engineers/programmers looking to move their ideas and applications into the mobile space with Android. The author assumes the reader has a passable understanding of Java. They should be able to write classes and handle basic inheritance structures. This book also targets hobbyist developers looking to get their feet wet in the complex minefield of mobile software.
+
+Table of Contents
+
+        01. Introducing the Android Computing Platform 
+        02. Getting Your Feet Wet 
+        03. Using Resources, Content Providers, and Intents 
+        04. Building User Interfaces and Using Controls 
+        05. Working with Menus and Dialogs 
+        06. Unveiling 2D Animation 
+        07. Exploring Security and Location-Based Services 
+        08. Building and Consuming Services 
+        09. Using the Media Framework and Telephony APIs 
+        10. Programming 3D Graphics with OpenGL
+        11. Managing and Organizing Preferences
+        12. Coming to Grips with 1.5
+        13. Simplifying OpenGL and Exploring Live Folders
+

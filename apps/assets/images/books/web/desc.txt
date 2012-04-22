@@ -1,0 +1,37 @@
+HTML5 is here, and with it, web applications have acquired power, ease, scalability, and responsiveness like never before. With this book, developers will learn how to use the latest cutting-edge HTML5 web technology—available in the most recent versions of modern browsers—to build web applications with unparalleled functionality, speed, and responsiveness.
+
+This new edition includes major revisions for WebSockets functionality, reflecting the new W3C specification. It also features new chapters covering the drag-and-drop API as well as SVG.
+
+    Explains how to create real-time HTML5 applications that tap the full potential of modern browsers
+    Provides practical, real-world examples of HTML5 features in action
+    Covers all the new HTML5 APIs to get you up-to-speed quickly with HTML5
+    Fully updated to include the latest revisions of the WebSocket API, and much more.
+
+What you’ll learn
+
+    How the HTML5 specification has evolved
+    How to develop cutting-edge web applications using new HTML5 features like WebSockets, geolocation, web storage, Canvas, and audio/video
+    Which features are available in modern browsers
+
+Who this book is for
+
+    Web designers and developers who want to use the latest cutting-edge technology available in current browsers
+    Developers who want to create dynamic, HTML5 web applications
+    Developers who want to know which HTML5 features are supported by modern browsers
+
+Table of Contents
+
+        01. Overview of HTML5
+        02. Using the Canvas API
+        03. Working With Scalable Vector Graphics
+        04. Working with Audio and Video
+        05. Using the Geolocation API
+        06. Using the Communication APIs
+        07. Using the WebSocket API
+        08. Using the Forms API
+        09. Working with Drag-and-Drop
+        10. Using the Web Workers API
+        11. Using the Storage APIs
+        12. Creating Offline Web Applications
+        13. The Future of HTML5
+

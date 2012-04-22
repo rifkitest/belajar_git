@@ -1,0 +1,326 @@
+/**
+ * 	author and copyright : Muhamad Rifki
+ *  desc				: contact, about, order, how to buy
+ */
+body{
+ 	background-color 		: #F8F8F8;
+ 	margin			 		: 1px;
+}
+header{
+	margin-top				: 1px;
+	margin-right			: 20px;
+	margin-bottom			: 0px;
+	margin-left				: 200px;
+	width					: 900px;
+	height					: 30px;
+	
+	padding					: 10px 5px 5px 15px; 
+	
+	border-width			: 0.5px;
+	background-color		: #D0D0D0;
+	font-family				: "Lucida Sans Typewriter";
+	font-size				: 14px; 
+}
+	header a:hover{
+					color				: #080808;
+					text-decoration		: none;
+					box-shadow			: inset 0px 0px 15px #282828;
+					-webkit-box-shadow	: inset 0px 0px 15px #282828;
+					-moz-binding		: 200px;
+					-moz-border-radius	: 20px;
+	}
+	header a:visited{
+				color				: #080808;
+				text-decoration		: none;
+				box-shadow			: inset 0px 0px 5px #F0F0F0;
+				
+	}
+	header a:focus{
+				box-shadow			: inset 0px 0px 15px #282828;
+				-webkit-box-shadow	: inset 0px 0px 15px #282828;
+	}
+
+/** keseluruhan **/
+		.title{
+				margin-right		: 190px;
+				position			: absolute;
+				left				: 650px;
+				right				: 180px;
+				top					: -5px;
+				font-family			: Arial, "MS Trebuchet", sans-serif;
+				box-shadow			: 2px 2px 40px 5px #FFFFFF;
+				background-color 	: #E0E0E0 ;  
+			}
+			a:link{
+				color				: #080808;
+				text-decoration		: none;
+			}
+			/**
+			a:hover{
+				color				: #080808;
+				text-decoration		: none;
+				box-shadow			: inset 0px 0px 15px #282828;
+				-webkit-box-shadow	: inset 0px 0px 15px #282828;
+				-moz-binding		: 200px;
+				-moz-border-radius	: 20px;
+				
+			}
+			**/
+			/**
+			a:visited{
+				color				: #080808;
+				text-decoration		: none;
+				box-shadow			: inset 0px 0px 5px #F0F0F0;
+				
+			}
+			**/
+			/**
+			a:focus{
+				box-shadow			: inset 0px 0px 15px #282828;
+				-webkit-box-shadow	: inset 0px 0px 15px #282828;
+			}
+			**/
+			.icon_book_store{
+				margin-right		: 400px;
+				position			: absolute;
+				left				: 990px;
+				right				: 10px;
+				top					: -5px;
+			}
+			.icon_book_anime{
+				box-shadow: 10px 5px 10px #282828;
+				-moz-border-bottom-colors: 10px 10px 15px #282828;
+			}
+			.font{
+				font-family				: "Lucida Sans Typewriter";
+				font-size				: 14px; 
+			}
+			
+nav{
+	margin-left				: 200px;
+	
+	width					: 920px;
+	height					: 50px;
+	
+	border					: solid #D8D8D8; 
+	border-width			: 0.5px;
+	background-image		: url('../images/nav3.2.jpg');
+	/**background-color 		: #E8E8E8; **/
+}
+
+section{
+	width					: 680px;
+	height					: 400px;
+	margin-top				: 10px;
+	margin-bottom			: 10px;
+	margin-right			: 420px;
+	margin-left				: 420px;
+	
+	padding					: 5px 5px 5px 10px;
+	border					: solid #D8D8D8; 
+	border-width			: 0.5px; 
+}
+	/** judul post  **/
+	section p{
+		font-family			: "Lucida Sans Typewriter";
+		font-size			: 18px; 
+		border-width		: 0.5px;
+		width				: 200px;
+		height				: 10px;
+		margin-left			: 20px;
+		margin-bottom		: 30px;
+		box-shadow			: black;
+		color    			: #202020;
+	}
+	/** tanggal post **/
+	section h1,h2,h3,h4,h5,h6{
+		font-family			: "Lucida Sans Typewriter";
+		font-size			: 12px;
+		margin-left			: 20px;
+	}
+article{
+	margin-top				: 1px;
+	margin-left				: 20px;
+	
+	width					: 650px;
+	height					: 320px;
+	margin-top				: 1px;
+	margin-right			: 5px;
+	margin-bottom			: 5px;
+	
+	border 					: #0066CC;
+	border-width			: 0.5px;
+	box-shadow				: 0px 0px 1px #D8D8D8; 
+}
+	/** judul **/
+	article p{
+		font-family			: "Lucida Sans Typewriter";
+		font-size			: 18px; 
+	}
+	article h1, h2, h3,h4,h5,h6{
+		font-family:  		: "Lucida Sans Typewriter";
+		font-size			: 12px;
+	}
+	article h3,h4,h5,h6{
+		margin-right		: 5px;
+		margin-left			: 5px;
+		margin-bottom		: 5px;
+		margin-top			: 5px;
+	}
+	article img{
+		margin-right		: 10px;
+		margin-bottom		: 5px;
+	}
+
+	
+aside{
+	margin-top				: 0px;
+	margin-left				: 0px;
+	margin-right			: 0px;
+	margin-bottom			: 0px;
+	
+	width					: 0px;
+	height					: 0px;
+	
+	border 					: #0066CC;
+	border-width			: 0.5px;
+	box-shadow				: 2px 1px 2px black; 
+}
+/** Our Category **/
+	aside .sidebar_1{
+		margin-top				: 10px;
+		margin-left				: 200px;
+		margin-right			: 1px;
+		margin-bottom			: 1px;
+		
+		width					: 200px;
+		height					: 150px;
+		
+		border 					: #0066CC;
+		border-width			: 0.5px;
+		box-shadow				: 2px 1px 2px black; 
+	}
+			/** Judul - Our Category **/
+				aside .sidebar_1 p{
+					margin-top				: 1px;
+					margin-left				: 0px;
+					margin-right			: 0px;
+					margin-bottom			: 2px;
+					background-color 		: #0099CC;
+				}
+			/** warna link - Our Category **/
+				aside .sidebar_1 a{
+					color					: #383838;
+				}
+			/** warna sorot - Our Category **/
+				aside .sidebar_1 a:hover{
+					color					: #0066CC;
+				}
+			/** warna sorot - Our Category **/
+				aside .sidebar_1 li,ul{
+					margin-top				: 1em;
+					margin-bottom			: 1em;
+					margin-left				: 1em;
+					margin-right			: 1em;
+					padding 				: 1px 2px 3px;
+				}
+/** Our Partner **/
+	aside .sidebar_2{
+		margin-top				: 10px;
+		margin-left				: 200px;
+		margin-right			: 1px;
+		margin-bottom			: 1px;
+		
+		width					: 200px;
+		height					: 150px;
+		
+		border 					: #0066CC;
+		border-width			: 0.5px;
+		box-shadow				: 2px 1px 2px black; 
+	}
+			/** Judul - Our Partner **/
+				aside .sidebar_2 p{
+					margin-top				: 1px;
+					margin-left				: 0px;
+					margin-right			: 0px;
+					margin-bottom			: 2px;
+					background-color 		: #0099CC;
+				}
+			/** warna link - Our Partner **/
+				aside .sidebar_2 a{
+					color					: #383838;
+				}
+			/** warna sorot - Our Partner **/
+				aside .sidebar_2 a:hover{
+					color					: #0066CC;
+				}
+			/** warna sorot - Our Partner **/
+				aside .sidebar_2 li,ul{
+					margin-top				: 1em;
+					margin-bottom			: 1em;
+					margin-left				: 1em;
+					margin-right			: 1em;
+					padding 				: 1px 2px 3px;
+				}
+footer{
+	margin-top				: 10px;
+	margin-right			: 1px;
+	margin-bottom			: 10px;
+	margin-left				: 200px;
+	
+	width					: 920px;
+	height					: 50px;
+	
+	padding					: 0px 0px 0px 0px;
+	border					: solid #606060; 
+	border-width			: 0.5px;
+	background-color		: #D0D0D0;
+}
+		footer a:hover{
+						color				: #080808;
+						text-decoration		: none;
+						box-shadow			: inset 0px 0px 15px #282828;
+						-webkit-box-shadow	: inset 0px 0px 15px #282828;
+						-moz-binding		: 200px;
+						-moz-border-radius	: 20px;
+		}
+		footer a:visited{
+					color				: #080808;
+					text-decoration		: none;
+					box-shadow			: inset 0px 0px 5px #F0F0F0;
+					
+		}
+		footer a:focus{
+					box-shadow			: inset 0px 0px 15px #282828;
+					-webkit-box-shadow	: inset 0px 0px 15px #282828;
+		}
+		
+		
+		/** ID button custom contact**/
+		#button_custom_contact{	
+			margin-left			: 5px;
+			width				: 173px;
+			height				: 25px;
+		}
+		/** ID form text custom contact **/ 
+		#form_custom_contact_text{
+			margin-left			: 5px;
+			margin-right		: 5px;
+			margin-top			: 5px;
+			margin-bottom		: 5px;
+			width				: 200px;
+			height				: 25px;
+			background-color 	: #E0E0E0;
+			box-shadow			: 1px 5px 2px 4px #FFFFFF;
+		}
+		/** ID form text custom contact **/ 
+		#form_custom_contact_textarea{
+			margin-left			: 5px;
+			margin-right		: 5px;
+			margin-top			: 5px;
+			margin-bottom		: 5px;
+			width				: 350px;
+			height				: 200px;
+			background-color 	: #E0E0E0;
+			box-shadow			: 1px 5px 2px 4px #FFFFFF; 
+		}

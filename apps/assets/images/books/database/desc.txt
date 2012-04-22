@@ -1,0 +1,36 @@
+Oracle Core: Essential Internals for DBAs and Developers by Jonathan Lewis provides just the essential information about Oracle Database internals that every database administrator needs for troubleshooting—no more, no less.
+
+Oracle Database seems complex on the surface. However, its extensive feature set is really built upon upon a core infrastructure resulting from sound architectural decisions made very early on that have stood the test of time. This core infrastructure manages transactions and the ability to commit and roll back changes, protects the integrity of the database, enables backup and recovery, and allows for scalability to thousands of users all accessing the same data.
+
+Most performance, backup, and recovery problems that database administrators face on a daily basis can easily be identified through understanding the essential core of Oracle Database architecture that Lewis describes in this book.
+
+    Provides proven content from a world-renowned performance and troubleshooting expert
+    Emphasizes the significance of internals knowledge to rapid identification of database performance problems
+    Covers the core essentials and does not waste your time with esoterica
+
+What you’ll learn
+
+    Oracle's core architectural foundations
+    How much overhead is reasonable
+    How to recognize when you're doing too much work
+    How to predict bottlenecks and why they will happen
+    How to minimise contention and locking
+    Why concurrency can slow things down significantly
+
+Who this book is for
+
+Oracle Core: Essential Internals for DBAs and Developers is aimed at database administrators ready to move beyond the beginning stage of doing work by rote towards the mastery stage, in which knowledge of what needs to be done comes not from a set of recipe-style instructions, but rather from the intimate knowledge and understanding of the system to be managed. Experienced database administrators will also find the book useful in solidifying their knowledge and filling in any missing pieces of the Oracle Database puzzle.
+
+    
+Table of Contents
+
+       01. Introduction
+       02. Redo and Undo
+       03. Transactions and Consistency
+       04. Latches and Locks
+       05. Caches and Copies
+       06. Writing and Recovery 
+       07. RAC and Ruin
+       08. Dumping and Debugging
+       09. Working and Waiting
+

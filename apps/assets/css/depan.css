@@ -1,0 +1,179 @@
+/**
+ * 	@author 	: Muhamad Rifki
+ */
+body{
+ 	background-color 		: #F8F8F8;
+ 	margin			 		: 1px;
+}
+header{
+	margin-top				: 1px;
+	margin-right			: 20px;
+	margin-bottom			: 0px;
+	margin-left				: 200px;
+	width					: 900px;
+	height					: 30px;
+	/**
+	-moz-box-shadow		: inset -5px -5px -20px #606060;
+  	-webkit-box-shadow	: inset -5px -5px -20px #606060;
+  	box-shadow			: inner 0 0 5px #606060;
+	border				: solid #282828;
+	**/
+	/**
+	-moz-box-shadow			: inset 0 10 30px #606060;
+	-webkit-box-shadow		: inset 0 10 30px #606060;
+	box-shadow				: inner 0 10 30px #606060;
+	**/
+	padding					: 10px 5px 5px 15px; 
+	
+	border-width			: 0.5px;
+	background-color		: #D0D0D0;
+	font-family				: "Lucida Sans Typewriter";
+	font-size				: 14px; 
+}
+			.title{
+				margin-right		: 190px;
+				position			: absolute;
+				left				: 650px;
+				right				: 180px;
+				top					: -5px;
+				font-family			: Arial, "MS Trebuchet", sans-serif;
+				box-shadow			: 2px 2px 40px 5px #FFFFFF;
+				background-color 	: #E0E0E0 ;  
+			}
+			a:link{
+				color				: #080808;
+				text-decoration		: none;
+			}
+			a:hover{
+				color				: #080808;
+				text-decoration		: none;
+				box-shadow			: inset 0px 0px 15px #282828;
+				-webkit-box-shadow	: inset 0px 0px 15px #282828;
+				-moz-binding		: 200px;
+				-moz-border-radius	: 20px;
+				
+			}
+			a:visited{
+				color				: #080808;
+				text-decoration		: none;
+				box-shadow			: inset 0px 0px 5px #F0F0F0;
+				
+			}
+			a:focus{
+				box-shadow			: inset 0px 0px 15px #282828;
+				-webkit-box-shadow	: inset 0px 0px 15px #282828;
+			}
+			.icon_book_store{
+				margin-right		: 400px;
+				position			: absolute;
+				left				: 990px;
+				right				: 10px;
+				top					: -5px;
+			}
+			.icon_book_anime{
+				box-shadow: 10px 5px 10px #282828;
+				-moz-border-bottom-colors: 10px 10px 15px #282828;
+			}
+			.books_slide{
+				width	: 20px;
+				
+			}
+			.font{
+				font-family				: "Bookshelf Symbol 7";
+			}
+			
+		/** slide depan **/
+			#slideshow {
+			    position:relative;
+			    height:200px;
+			}
+			
+			#slideshow DIV {
+			    position:absolute;
+			    top:0;
+			    left:0;
+			    z-index:8;
+			    opacity:0.0;
+			    height: 0px;
+			    background-color: #FFF;
+			}
+			
+			#slideshow DIV.active {
+			    z-index:10;
+			    opacity:1.0;
+			}
+			
+			#slideshow DIV.last-active {
+			    z-index:9;
+			}
+			
+			#slideshow DIV IMG {
+			    height: 330px;
+			    display: block;
+			    border: 0;
+			    margin-bottom: 10px;
+			}
+			/** end slide depan **/
+	
+nav{
+	margin-top				: 0px;
+	margin-right			: 0px;
+	margin-bottom			: 0px;
+	margin-left				: 200px;
+	
+	width					: 920px;
+	height					: 350px;
+	
+	border					: solid #D8D8D8; 
+	border-width			: 0.5px;
+	background-image		: url('../images/nav3.1.jpg');
+	/**background-color 		: #E8E8E8; **/
+}
+
+section{
+	width					: 920px;
+	height					: 200px;
+	margin-top				: 5px;
+	margin-bottom			: 5px;
+	margin-right			: 200px;
+	margin-left				: 200px;
+	
+	padding					: 0px 0px 0px 0px;
+	border					: solid #D8D8D8; 
+	border-width			: 0.5px;
+}
+
+		#category_1{
+			width					: 50px;
+			height					: 50px;
+			
+			margin-top				: 1px;
+			margin-bottom			: 1px;
+			margin-left				: 200px;
+			margin-right			: 5px;
+			border					: solid #FF0033; 
+			border-width			: 0.5px; 
+		}
+		#category_2{
+			width					: 50px;
+			height					: 50px;
+			
+			margin-top				: 1px;
+			margin-bottom			: 1px;
+			margin-left				: 200px;
+			margin-right			: 50px;
+			border					: solid #FF0033; 
+			border-width			: 0.5px; 
+		}
+footer{
+	margin-top				: 1px;
+	margin-right			: 1px;
+	margin-bottom			: 10px;
+	margin-left				: 200px;
+	width					: 920px;
+	height					: 50px;
+	padding					: 0px 0px 0px 0px;
+	border					: solid #606060; 
+	border-width			: 0.5px;
+	background-color		: #D0D0D0;
+}
